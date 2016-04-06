@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		164AF4A4E7CE33654E532ABC /* libPods-WDNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21064CBBC52E88FECD01EFA7 /* libPods-WDNetwork.a */; };
+		51F180ED1CB3A05200D8D00A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F180EC1CB3A05200D8D00A /* main.m */; };
+		51F180F01CB3A05200D8D00A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F180EF1CB3A05200D8D00A /* AppDelegate.m */; };
+		51F180F31CB3A05200D8D00A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F180F21CB3A05200D8D00A /* ViewController.m */; };
+		51F180F61CB3A05200D8D00A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F180F41CB3A05200D8D00A /* Main.storyboard */; };
+		51F180F81CB3A05200D8D00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F180F71CB3A05200D8D00A /* Assets.xcassets */; };
+		51F180FB1CB3A05200D8D00A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F180F91CB3A05200D8D00A /* LaunchScreen.storyboard */; };
+		51F181061CB3A05200D8D00A /* WDNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F181051CB3A05200D8D00A /* WDNetworkTests.m */; };
+		51F181111CB3A05200D8D00A /* WDNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F181101CB3A05200D8D00A /* WDNetworkUITests.m */; };
+		51F181221CB3B8A200D8D00A /* WDNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F181211CB3B8A200D8D00A /* WDNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51F181021CB3A05200D8D00A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51F180E01CB3A05200D8D00A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51F180E71CB3A05200D8D00A;
+			remoteInfo = WDNetwork;
+		};
+		51F1810D1CB3A05200D8D00A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51F180E01CB3A05200D8D00A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51F180E71CB3A05200D8D00A;
+			remoteInfo = WDNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C83C3DE4BF5F90046CFF5E6 /* Pods-WDNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WDNetwork/Pods-WDNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		21064CBBC52E88FECD01EFA7 /* libPods-WDNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WDNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F180E81CB3A05200D8D00A /* WDNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F180EC1CB3A05200D8D00A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51F180EE1CB3A05200D8D00A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		51F180EF1CB3A05200D8D00A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51F180F11CB3A05200D8D00A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		51F180F21CB3A05200D8D00A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		51F180F51CB3A05200D8D00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51F180F71CB3A05200D8D00A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51F180FA1CB3A05200D8D00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51F180FC1CB3A05200D8D00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51F181011CB3A05200D8D00A /* WDNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F181051CB3A05200D8D00A /* WDNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDNetworkTests.m; sourceTree = "<group>"; };
+		51F181071CB3A05200D8D00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51F1810C1CB3A05200D8D00A /* WDNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F181101CB3A05200D8D00A /* WDNetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDNetworkUITests.m; sourceTree = "<group>"; };
+		51F181121CB3A05200D8D00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51F1811E1CB3B7D400D8D00A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		51F181201CB3B8A200D8D00A /* WDNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDNetworking.h; sourceTree = "<group>"; };
+		51F181211CB3B8A200D8D00A /* WDNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDNetworking.m; sourceTree = "<group>"; };
+		51F181231CB3B9C600D8D00A /* WDNetworkingConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDNetworkingConfigure.h; sourceTree = "<group>"; };
+		5EE93F3DD57774E4DD8FD068 /* Pods-WDNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-WDNetwork/Pods-WDNetwork.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51F180E51CB3A05200D8D00A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164AF4A4E7CE33654E532ABC /* libPods-WDNetwork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51F180FE1CB3A05200D8D00A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51F181091CB3A05200D8D00A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26F90CE62B1481684A2EC3E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C83C3DE4BF5F90046CFF5E6 /* Pods-WDNetwork.debug.xcconfig */,
+				5EE93F3DD57774E4DD8FD068 /* Pods-WDNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		278C74F92BEEDF111DF428C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21064CBBC52E88FECD01EFA7 /* libPods-WDNetwork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51F180DF1CB3A05200D8D00A = {
+			isa = PBXGroup;
+			children = (
+				51F180EA1CB3A05200D8D00A /* WDNetwork */,
+				51F181041CB3A05200D8D00A /* WDNetworkTests */,
+				51F1810F1CB3A05200D8D00A /* WDNetworkUITests */,
+				51F180E91CB3A05200D8D00A /* Products */,
+				26F90CE62B1481684A2EC3E6 /* Pods */,
+				278C74F92BEEDF111DF428C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		51F180E91CB3A05200D8D00A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51F180E81CB3A05200D8D00A /* WDNetwork.app */,
+				51F181011CB3A05200D8D00A /* WDNetworkTests.xctest */,
+				51F1810C1CB3A05200D8D00A /* WDNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51F180EA1CB3A05200D8D00A /* WDNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				51F1811F1CB3B88F00D8D00A /* WDNetworking */,
+				51F180EE1CB3A05200D8D00A /* AppDelegate.h */,
+				51F180EF1CB3A05200D8D00A /* AppDelegate.m */,
+				51F180F11CB3A05200D8D00A /* ViewController.h */,
+				51F180F21CB3A05200D8D00A /* ViewController.m */,
+				51F180F41CB3A05200D8D00A /* Main.storyboard */,
+				51F180F71CB3A05200D8D00A /* Assets.xcassets */,
+				51F180F91CB3A05200D8D00A /* LaunchScreen.storyboard */,
+				51F180FC1CB3A05200D8D00A /* Info.plist */,
+				51F180EB1CB3A05200D8D00A /* Supporting Files */,
+			);
+			path = WDNetwork;
+			sourceTree = "<group>";
+		};
+		51F180EB1CB3A05200D8D00A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51F180EC1CB3A05200D8D00A /* main.m */,
+				51F1811E1CB3B7D400D8D00A /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51F181041CB3A05200D8D00A /* WDNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				51F181051CB3A05200D8D00A /* WDNetworkTests.m */,
+				51F181071CB3A05200D8D00A /* Info.plist */,
+			);
+			path = WDNetworkTests;
+			sourceTree = "<group>";
+		};
+		51F1810F1CB3A05200D8D00A /* WDNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51F181101CB3A05200D8D00A /* WDNetworkUITests.m */,
+				51F181121CB3A05200D8D00A /* Info.plist */,
+			);
+			path = WDNetworkUITests;
+			sourceTree = "<group>";
+		};
+		51F1811F1CB3B88F00D8D00A /* WDNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				51F181201CB3B8A200D8D00A /* WDNetworking.h */,
+				51F181211CB3B8A200D8D00A /* WDNetworking.m */,
+				51F181231CB3B9C600D8D00A /* WDNetworkingConfigure.h */,
+			);
+			path = WDNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51F180E71CB3A05200D8D00A /* WDNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51F181151CB3A05200D8D00A /* Build configuration list for PBXNativeTarget "WDNetwork" */;
+			buildPhases = (
+				B5937F2BDA7546962FFDF5E8 /* Check Pods Manifest.lock */,
+				51F180E41CB3A05200D8D00A /* Sources */,
+				51F180E51CB3A05200D8D00A /* Frameworks */,
+				51F180E61CB3A05200D8D00A /* Resources */,
+				6E342BC356F57061705743C6 /* Embed Pods Frameworks */,
+				AF7CEF1C0433CB794E91F5F0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDNetwork;
+			productName = WDNetwork;
+			productReference = 51F180E81CB3A05200D8D00A /* WDNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51F181001CB3A05200D8D00A /* WDNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51F181181CB3A05200D8D00A /* Build configuration list for PBXNativeTarget "WDNetworkTests" */;
+			buildPhases = (
+				51F180FD1CB3A05200D8D00A /* Sources */,
+				51F180FE1CB3A05200D8D00A /* Frameworks */,
+				51F180FF1CB3A05200D8D00A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51F181031CB3A05200D8D00A /* PBXTargetDependency */,
+			);
+			name = WDNetworkTests;
+			productName = WDNetworkTests;
+			productReference = 51F181011CB3A05200D8D00A /* WDNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51F1810B1CB3A05200D8D00A /* WDNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51F1811B1CB3A05200D8D00A /* Build configuration list for PBXNativeTarget "WDNetworkUITests" */;
+			buildPhases = (
+				51F181081CB3A05200D8D00A /* Sources */,
+				51F181091CB3A05200D8D00A /* Frameworks */,
+				51F1810A1CB3A05200D8D00A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51F1810E1CB3A05200D8D00A /* PBXTargetDependency */,
+			);
+			name = WDNetworkUITests;
+			productName = WDNetworkUITests;
+			productReference = 51F1810C1CB3A05200D8D00A /* WDNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51F180E01CB3A05200D8D00A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wangduan;
+				TargetAttributes = {
+					51F180E71CB3A05200D8D00A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					51F181001CB3A05200D8D00A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 51F180E71CB3A05200D8D00A;
+					};
+					51F1810B1CB3A05200D8D00A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 51F180E71CB3A05200D8D00A;
+					};
+				};
+			};
+			buildConfigurationList = 51F180E31CB3A05200D8D00A /* Build configuration list for PBXProject "WDNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51F180DF1CB3A05200D8D00A;
+			productRefGroup = 51F180E91CB3A05200D8D00A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51F180E71CB3A05200D8D00A /* WDNetwork */,
+				51F181001CB3A05200D8D00A /* WDNetworkTests */,
+				51F1810B1CB3A05200D8D00A /* WDNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51F180E61CB3A05200D8D00A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F180FB1CB3A05200D8D00A /* LaunchScreen.storyboard in Resources */,
+				51F180F81CB3A05200D8D00A /* Assets.xcassets in Resources */,
+				51F180F61CB3A05200D8D00A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51F180FF1CB3A05200D8D00A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51F1810A1CB3A05200D8D00A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E342BC356F57061705743C6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WDNetwork/Pods-WDNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF7CEF1C0433CB794E91F5F0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WDNetwork/Pods-WDNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5937F2BDA7546962FFDF5E8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51F180E41CB3A05200D8D00A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F181221CB3B8A200D8D00A /* WDNetworking.m in Sources */,
+				51F180F31CB3A05200D8D00A /* ViewController.m in Sources */,
+				51F180F01CB3A05200D8D00A /* AppDelegate.m in Sources */,
+				51F180ED1CB3A05200D8D00A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51F180FD1CB3A05200D8D00A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F181061CB3A05200D8D00A /* WDNetworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51F181081CB3A05200D8D00A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F181111CB3A05200D8D00A /* WDNetworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51F181031CB3A05200D8D00A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51F180E71CB3A05200D8D00A /* WDNetwork */;
+			targetProxy = 51F181021CB3A05200D8D00A /* PBXContainerItemProxy */;
+		};
+		51F1810E1CB3A05200D8D00A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51F180E71CB3A05200D8D00A /* WDNetwork */;
+			targetProxy = 51F1810D1CB3A05200D8D00A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51F180F41CB3A05200D8D00A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51F180F51CB3A05200D8D00A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51F180F91CB3A05200D8D00A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51F180FA1CB3A05200D8D00A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51F181131CB3A05200D8D00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51F181141CB3A05200D8D00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51F181161CB3A05200D8D00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C83C3DE4BF5F90046CFF5E6 /* Pods-WDNetwork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = WDNetwork/PrefixHeader.pch;
+				INFOPLIST_FILE = WDNetwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wangduan.com.WDNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		51F181171CB3A05200D8D00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE93F3DD57774E4DD8FD068 /* Pods-WDNetwork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = WDNetwork/PrefixHeader.pch;
+				INFOPLIST_FILE = WDNetwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wangduan.com.WDNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		51F181191CB3A05200D8D00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WDNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wangduan.com.WDNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDNetwork.app/WDNetwork";
+			};
+			name = Debug;
+		};
+		51F1811A1CB3A05200D8D00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WDNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wangduan.com.WDNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDNetwork.app/WDNetwork";
+			};
+			name = Release;
+		};
+		51F1811C1CB3A05200D8D00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WDNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wangduan.com.WDNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WDNetwork;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		51F1811D1CB3A05200D8D00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WDNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.wangduan.com.WDNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WDNetwork;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51F180E31CB3A05200D8D00A /* Build configuration list for PBXProject "WDNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51F181131CB3A05200D8D00A /* Debug */,
+				51F181141CB3A05200D8D00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51F181151CB3A05200D8D00A /* Build configuration list for PBXNativeTarget "WDNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51F181161CB3A05200D8D00A /* Debug */,
+				51F181171CB3A05200D8D00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51F181181CB3A05200D8D00A /* Build configuration list for PBXNativeTarget "WDNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51F181191CB3A05200D8D00A /* Debug */,
+				51F1811A1CB3A05200D8D00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51F1811B1CB3A05200D8D00A /* Build configuration list for PBXNativeTarget "WDNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51F1811C1CB3A05200D8D00A /* Debug */,
+				51F1811D1CB3A05200D8D00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51F180E01CB3A05200D8D00A /* Project object */;
+}
